@@ -1,0 +1,25 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container{
+    width: 30%;
+    height: 150px;
+    background-color: rgb(188, 212, 227);
+    margin: 50px auto;
+    display: flex;
+    gap: 30px;
+    justify-content: center;
+    align-items: center;
+}
+.container img{
+    width: 30%;
+    border-radius: 50%;
+}
+.text{
+    color: rgb(80, 72, 72);
+}
+.text h3{
+    line-height: 30px;
+}

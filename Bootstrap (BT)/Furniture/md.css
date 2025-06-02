@@ -1,0 +1,29 @@
+@media (max-width:960px){
+    .logo {
+        display: none;
+    }
+
+    ul li a {
+        display: none;
+    }
+
+    .menu-1 {
+        display: contents;
+    }
+
+    .butn {
+        width: 100%;
+    }
+
+    .az {
+        justify-content: center;
+    }
+
+    .d4 {
+        justify-content: center;
+    }
+
+    .d3 {
+        justify-content: center;
+    }
+}

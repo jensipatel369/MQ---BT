@@ -1,0 +1,91 @@
+@media (max-width: 480px) {
+    .logo {
+        font-size: 20px;
+    }
+
+    nav ul {
+        display: none;
+    }
+
+    nav ul.show {
+        display: block;
+        position: absolute;
+        top: 60px;
+        left: 0;
+        width: 100%;
+        background-color: #fff;
+        padding: 20px;
+        box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    }
+
+    nav li {
+        display: block;
+        margin: 10px 0;
+    }
+
+    .hero h1 {
+        font-size: 28px;
+    }
+
+    .hero p {
+        font-size: 16px;
+    }
+
+    .about h2 {
+        font-size: 24px;
+    }
+
+    .portfolio h2 {
+        font-size: 24px;
+    }
+
+    .services h2 {
+        font-size: 24px;
+    }
+
+    .testimonials h2 {
+        font-size: 24px;
+    }
+
+    .blog h2 {
+        font-size: 24px;
+    }
+
+    .contact h2 {
+        font-size: 24px;
+    }
+}
+
+@media (max-width: 768px) {
+    .projects {
+        flex-direction: column;
+    }
+
+    .project {
+        width: 100%;
+    }
+
+    .services-grid {
+        flex-direction: column;
+    }
+
+    .service {
+        width: 100%;
+    }
+
+    .testimonials-slider {
+        flex-direction: column;
+    }
+
+    .testimonial {
+        width: 100%;
+    }
+
+    .blog-posts {
+        flex-direction: column;
+    }
+
+    .blog-post {
+        width: 100%;
+    }
+}

@@ -1,0 +1,73 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+nav {
+    padding: 15px 0;
+    background-color: rgb(158, 158, 158);
+}
+.container1 {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+.logo {
+    font-size: 24px;
+    font-weight: bold;
+    text-decoration: none;
+    color: #fff;
+    margin-left: 3%;
+}
+.nav-links {
+    list-style: none;
+    display: flex;
+}
+.nav-links li {
+    margin-right: 40px;
+}
+.nav-links a {
+    text-decoration: none;
+    color: #525252;
+    font-size: 17px;
+    font-weight: 500;
+    padding-left: 10%;
+}
+.nav-links a:hover {
+    color: #f0f0f0;
+}
+.font-1{
+    color: #FFFFFF;
+}
+select{
+    border: none;
+    background-color: transparent;
+    color: #525252;
+    font-size: 17px;
+    outline: none;
+}
+select:hover{
+    background-color: black;
+    color: white;
+}
+.btn {
+    background-color: #323232;
+    color: #FFFFFF;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    margin-right: 3%;
+    font-size: 16px;
+    font-weight: 500;
+}
+.btn:hover {
+    background-color: #f0f0f0;
+    color: #323232;
+}
+.about-aera{
+    padding-top: 80px;
+}
